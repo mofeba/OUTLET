@@ -19,10 +19,10 @@ def main():
         if choice==1:
             Outlet.display_chargers()
         elif choice==2:
-            charger_number=input("what charger number would you like to add?")
+            charger_number=int(input("what charger number would you like to add?"))
             Outlet.add_chargers(charger_number)
         elif choice==3:
-            charging_port=input("What charger would you like to use today?")
+            charging_port=int(input("What charger would you like to use today?"))
             Outlet.book_charger(charging_port)
         elif choice==4:
             Outlet.end_charging()
