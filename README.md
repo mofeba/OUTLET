@@ -8,3 +8,9 @@ ADD NEW CHARGING PORTS
 BOOK CHARGER
 END CHARGING AND PAY CURRENT ENERGY MARKET COST
 
+To execute:
+python main.py
+# or depending upon your config
+python3 main.py
+
+
